@@ -8,7 +8,11 @@ xi = int(x)
 if (x - xi) == 0:
     print(f"{x} is an integer")
 """
-x = input("enter a decimal number"))
+import math
+x = input("enter a decimal number")
+x = float(x)
 xi = int(x)
 if (x - xi) == 0:
+    x = int(x)
     print(f"{x} is an integer")
+    
